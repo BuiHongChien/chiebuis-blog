@@ -1,0 +1,139 @@
+.sidebar {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 2%;
+  text-align: center;
+  overflow: auto;
+}
+
+.avatar-sidebar {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.sidebar-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  border-radius: 50%;
+}
+
+.goals-about-overlay{
+  background-color: #a5746e;
+}
+
+.plans-interests-overlay{
+  background-color:#bec3c4;
+}
+
+.avatar-sidebar:hover .sidebar-overlay{
+  opacity: 1;
+}
+
+.plans-interests-sidebar {
+  background-color:#d9e0e05e;
+}
+
+.plans-interests-sidebar:hover {
+  background-color:#c7cacada;
+}
+
+.goals-about-sidebar {
+  background-color: #d4c4c42f;
+}
+.goals-about-sidebar:hover {
+  background-color: #d4c4c4a8;
+}
+
+.a {
+  padding: 5%;
+  text-decoration: none;
+  font-size: 1em;
+  display: block;
+}
+
+.a:nth-child(1n) {
+  margin-top: 20px;
+}
+
+.a-goals-about {
+  color: #7c4f4a;
+}
+
+.a-goals-about:hover {
+  background-color:  #a5746e96;
+  color: #68403c;
+}
+
+.a-plans-interests {
+  color: #31535e;
+}
+
+.a-plans-interests:hover {
+  background-color: #a5746e96;
+  color: #31535e;
+}
+
+.options-text {
+  border: none;
+  outline: none;
+  position: absolute;
+  background: none;
+  text-decoration: none;
+  font-family: "Capriola";
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.plans-interests-text{
+  font-size: 36px;
+  color: #3e6774;
+}
+
+.goals-about-text{
+  font-size: 36px;
+  color: #7c4f4a;
+}
+
+.plans-interests-text:hover{
+  color: #3e67749c;
+}
+
+.goals-about-text:hover{
+  color: #7c4f4a96;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #a5746e;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #a5746e;
+}

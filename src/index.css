@@ -1,0 +1,44 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Capriola';
+}
+
+.main {
+  margin-left: 20%;
+  padding: 3% 8% 3% 3%;
+  text-align: center;
+}
+
+.grid{
+  width: 100%;
+  padding: 5%;
+  border-radius: 20px;
+  margin-bottom: 3%;
+  border: 2px solid;
+}
+
+.title{
+  font-style: italic;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin-bottom: 8px;
+}
+
+input{
+  margin: 0.6em;
+  width: 15px;
+  height: 15px;
+}
