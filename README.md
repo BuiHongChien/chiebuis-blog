@@ -12,7 +12,27 @@
 
 ### Demo:
 
-![gif]()
+![gif](https://github.com/BuiHongChien/chiebuis-blog/blob/develop/src/demo-images/demo-chienbuis-blog.gif)
 
+## **Step by step:**
+
+- Install [VSCode](https://code.visualstudio.com/)
+- Create a new React project by command line:
+
+```npm create-react-app my-app-name```
+
+- Install all package what we need to use:
+
+```npm install react-router-dom``` (to use Link)
+
+- Start your code by command line:
+
+```npm start```
+
+- Design UI graph in [Diagrams](https://www.diagrams.net/)
+
+- If you want to make your website 100% publish, read more about [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/)
+
+- It is time to code, good luck :)
 
 
