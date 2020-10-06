@@ -1,0 +1,25 @@
+.goals-bg{
+  background-image: url(../../../images/plans-interests-bg.png);
+  background-size: cover;
+  background-attachment:fixed ;
+  min-height: 100vh;
+}
+
+.grid-goals{
+  background-color: #d4c4c4c7;
+  color:  #64423e;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a5746e;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a5746e;
+}
