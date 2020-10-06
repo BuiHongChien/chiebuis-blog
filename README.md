@@ -12,7 +12,7 @@
 
 ### Demo:
 
-![gif](https://github.com/BuiHongChien/chiebuis-blog/blob/develop/src/demo-images/demo-chienbuis-blog.gif)
+![gif](https://github.com/BuiHongChien/chiebuis-blog/blob/master/src/demo-images/demo-chienbuis-blog.gif)
 
 ## **Step by step:**
 
