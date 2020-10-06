@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 
+import Dropdown from "./Dropdown";
 import "./Plans.css";
 
+const status = ["Waiting", "Working", "Done", "Break"];
+
+const rating = ["A", "B", "C", "D"];
+
+const priority = ["Low", "Medium", "High"];
+
 const Table = ({ table }) => {
+  const [statusSelected, setStatusSelected] = useState(status[0]);
+  const [ratingSelected, setRatingSelected] = useState(rating[0]);
+  const [prioritySelected, setPrioritySelected] = useState(priority[0]);
+
   return (
     <div>
       <table>
@@ -17,10 +28,28 @@ const Table = ({ table }) => {
           return (
             <tr>
               <td>{row.work}</td>
-              <td>{row.status}</td>
+              <td>
+                <Dropdown
+                  options={status}
+                  selected={statusSelected}
+                  onSelectedChange={setStatusSelected}
+                />
+              </td>
               <td>{row.time}</td>
-              <td>{row.rate}</td>
-              <td>{row.priority}</td>
+              <td>
+                <Dropdown
+                  options={rating}
+                  selected={ratingSelected}
+                  onSelectedChange={setRatingSelected}
+                />
+              </td>
+              <td>
+                <Dropdown
+                  options={priority}
+                  selected={prioritySelected}
+                  onSelectedChange={setPrioritySelected}
+                />
+              </td>
             </tr>
           );
         })}

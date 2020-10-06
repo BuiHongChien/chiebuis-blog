@@ -31,9 +31,22 @@ const About = () => {
             Information Technologies, Mechanics and Optics (ITMO) University
           </p>
         </div>
-        <div id="projects" className="grid grid-about">
-          <div className="title">Projects</div>
-          <p className="content"></p>
+        <div id="train" className="grid grid-about">
+          <div className="title">Train</div>
+          <div className="list">
+            <ul>
+              <p style={{textAlign:'center'}}><b>Advantages</b></p>
+              <li>+ Enthusiasm at work</li>
+              <li>+ Creativity at work</li>
+              <li>+ Work hard, play hard</li>
+              <li>+ Always be friendly</li>
+            </ul>
+            <ul>
+            <p style={{textAlign:'center'}}><b>Disadvantages</b></p>
+              <li>- Poor qualifications</li>
+              <li>- Poor foreign language skills</li>
+            </ul>
+          </div>
         </div>
         <div id="skills" className="grid grid-about">
           <div className="title">Skills</div>
@@ -103,6 +116,12 @@ const About = () => {
               <i class="fa fa-github"></i>
                 <a href={github} target="_blank">
                   BuiHongChien
+                </a>
+              </li>
+              <li>
+              <i class="fab fa-vk"></i>
+                <a href={vk} target="_blank">
+                  BuiChien
                 </a>
               </li>
             </ul>

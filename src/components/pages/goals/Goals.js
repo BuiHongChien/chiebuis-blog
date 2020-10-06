@@ -14,30 +14,48 @@ const Goals = () => {
           <div className="list">
             <ul>
               <li>
-                <input type="checkbox" name="toeic1" checked='true'/>
-                <label for="toeic1">450</label>
+                <label className="checkbox-container">
+                  450
+                  <input type="checkbox" />
+                  <span className="checkmark" />
+                </label>
               </li>
               <li>
-                <input type="checkbox" name="toeic2" checked='true' />
-                <label for="toeic2">600</label>
+                <label className="checkbox-container">
+                  600
+                  <input type="checkbox" />
+                  <span className="checkmark" />
+                </label>
               </li>
               <li>
-                <input type="checkbox" name="toeic3" checked='true'/>
-                <label for="toeic3">700</label>
+                <label className="checkbox-container">
+                  700
+                  <input type="checkbox" />
+                  <span className="checkmark" />
+                </label>
               </li>
             </ul>
             <ul>
               <li>
-                <input type="checkbox" name="toeic4" />
-                <label for="toeic4">800</label>
+                <label className="checkbox-container">
+                  800
+                  <input type="checkbox" />
+                  <span className="checkmark" />
+                </label>
               </li>
               <li>
-                <input type="checkbox" name="toeic5" />
-                <label for="toeic5">850</label>
+                <label className="checkbox-container">
+                  850
+                  <input type="checkbox" />
+                  <span className="checkmark" />
+                </label>
               </li>
               <li>
-                <input type="checkbox" name="toeic6" />
-                <label for="toeic6">900</label>
+                <label className="checkbox-container">
+                  900
+                  <input type="checkbox" />
+                  <span className="checkmark" />
+                </label>
               </li>
             </ul>
           </div>
@@ -48,31 +66,49 @@ const Goals = () => {
           <div className="list">
             <ul>
               <li>
-                <input type="checkbox" name="yoga1" checked='true' />
-                <label for="yoga1">Open Pose</label>
+                <label className="checkbox-container">
+                  Open Pose
+                  <input type="checkbox" />
+                  <span className="checkmark" />
+                </label>
               </li>
               <li>
-                <input type="checkbox" name="yoga2" checked='true' />
-                <label for="yoga2">Bridge Pose</label>
+                <label className="checkbox-container">
+                  Bridge Pose
+                  <input type="checkbox" />
+                  <span className="checkmark" />
+                </label>
               </li>
               <li>
-                <input type="checkbox" name="yoga3" />
-                <label for="yoga3">Dve Pose</label>
+                <label className="checkbox-container">
+                  Dve Pose
+                  <input type="checkbox" />
+                  <span className="checkmark" />
+                </label>
               </li>
             </ul>
 
             <ul>
               <li>
-                <input type="checkbox" name="yoga4" />
-                <label for="yoga4">Camel Pose</label>
+                <label className="checkbox-container">
+                  Camel Pose
+                  <input type="checkbox" />
+                  <span className="checkmark" />
+                </label>
               </li>
               <li>
-                <input type="checkbox" name="yoga5" />
-                <label for="yoga5">Plow Pose</label>
+                <label className="checkbox-container">
+                  Plow Pose
+                  <input type="checkbox" />
+                  <span className="checkmark" />
+                </label>
               </li>
               <li>
-                <input type="checkbox" name="yoga6" checked='true' />
-                <label for="yoga6">Pyramid Pose</label>
+                <label className="checkbox-container">
+                  Pyramid Pose
+                  <input type="checkbox" />
+                  <span className="checkmark" />
+                </label>
               </li>
             </ul>
           </div>

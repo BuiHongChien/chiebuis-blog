@@ -7,36 +7,51 @@ import "./Plans.css";
 const thisWeek = [
   {
     work: "Read a book",
-    status: "Done",
     time: "October 1-7",
-    rate: "A",
-    priority: "Medium",
   },
   {
     work: "Lab Prog Web",
-    status: "Break",
-    time: "September 4-9",
-    rate: "",
-    priority: "High",
+    time: "October 1-7",
+  },
+  {
+    work: "Lab linux",
+    time: "October 1-7",
+  },
+  {
+    work: "Lab machine learning",
+    time: "October 1-7",
   },
 ];
 
 const nextWeek = [
   {
     work: "Read a book",
-    status: "Waiting",
     time: "October 5-11",
-    rate: "",
-    priority: "Low",
   },
   {
-    work: "Lab ML",
-    status: "Waiting",
+    work: "Lab machine learning",
     time: "October 5-11",
-    rate: "",
-    priority: "High",
+  },
+  {
+    work: "lab UML",
+    time: "October 5-11",
   },
 ];
+
+const thisMonth=[
+  {
+    work: "Read 4 books",
+    time: "October",
+  },
+  {
+    work: "Create own web",
+    time: "October",
+  },
+  {
+    work: "Achieve 1 yoga pose",
+    time: "October",
+  },
+]
 
 const Plans = () => {
   return (
@@ -55,7 +70,7 @@ const Plans = () => {
 
         <div id="this-month" className="grid grid-plans">
           <div className="title">This Month</div>
-          <p className="content"></p>
+          <Table table={thisMonth} />
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ import Interests from "./pages/interests/Interests.js";
 export const about = [
   "summary",
   "education",
-  "projects",
+  "train",
   "skills",
   "language",
   "contact",

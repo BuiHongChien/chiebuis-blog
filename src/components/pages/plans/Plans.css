@@ -7,7 +7,7 @@
 
 .grid-plans {
   background-color: #ffffffb0;
-  color:  #69475c;
+  color:  #5a3e4f;
 }
 
 table {
@@ -34,6 +34,55 @@ td {
 
 tr:nth-child(odd) {
   background-color: #e8e9e9;
+}
+
+.dropdown-options{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-waiting{
+  background-color: rgba(255, 255, 0, 0.637);
+}
+
+.dropdown-working{
+  background-color: rgba(3, 129, 187, 0.582);
+}
+
+.dropdown-done{
+  background-color: rgba(28, 148, 54, 0.616);
+}
+
+.dropdown-break{
+  background-color: rgba(122, 122, 122, 0.582);
+}
+
+.dropdown-a{
+  background-color: rgba(25, 164, 182, 0.671);
+}
+
+.dropdown-c{
+  background-color: rgba(255, 255, 0, 0.637);
+}
+
+.dropdown-d{
+  background-color: rgba(189, 37, 17, 0.582);
+}
+
+.dropdown-low{
+  background-color: rgba(167, 123, 57, 0.616);
+}
+
+.dropdown-high{
+  background-color: rgba(189, 37, 17, 0.582);
+}
+
+.dropdown-medium{
+  background-color: rgba(168, 76, 204, 0.582);
 }
 
 ::-webkit-scrollbar {
