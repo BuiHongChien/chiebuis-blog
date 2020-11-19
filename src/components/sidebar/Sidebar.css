@@ -12,8 +12,8 @@
 
 .avatar-sidebar {
   position: relative;
-  width: 120px;
-  height: 120px;
+  width: 12rem;
+  height: 12rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -67,12 +67,12 @@
 .a {
   padding: 5%;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.5rem;
   display: block;
 }
 
 .a:nth-child(1n) {
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .a-goals-about {
@@ -102,18 +102,16 @@
   font-family: "Capriola";
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .plans-interests-text{
-  font-size: 36px;
+  font-size: 3.6rem;
   color: #3e6774;
 }
 
 .goals-about-text{
-  font-size: 36px;
+  font-size: 3.6rem;
   color: #7c4f4a;
 }
 
@@ -126,7 +124,7 @@
 }
 
 ::-webkit-scrollbar{
-  width: 10px;
+  width: 1rem;
 }
 
 ::-webkit-scrollbar-thumb{

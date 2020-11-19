@@ -5,6 +5,7 @@ html {
   margin: 0;
   padding: 0;
   font-family: 'Capriola';
+  font-size: 62.5%;
 }
 
 .main {
@@ -40,18 +41,13 @@ li{
 .checkbox-container{
   display: block;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  font-size: 18px;
-  cursor: pointer;
-  -webkit-user-select: none;
+  padding-left: 1.5rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
   user-select:none;
 }
 
 .checkbox-container input{
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
   height: 0;
   width: 0;
 }
@@ -59,9 +55,9 @@ li{
 .checkmark{
   position: absolute;
   top:0;
-  left: 0;
-  height: 20px;
-  width: 20px;
+  left: -1rem;
+  height: 2rem;
+  width: 2rem;
   background-color: #f0eceb;
 }
 
@@ -85,7 +81,6 @@ li{
   width: 20%;
   height: 50%;
   border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
+  border-width: 0 .3rem 0.3rem 0;
   transform: rotate(45deg);
 }

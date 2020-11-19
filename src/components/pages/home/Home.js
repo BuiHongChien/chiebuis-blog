@@ -5,11 +5,15 @@ import avatar from "../../../images/avatar.jpg";
 import goals from "../../../images/goals.png";
 import about from "../../../images/about.png";
 import plans from "../../../images/plans.png";
-import interests from '../../../images/interests.png'
+import interests from "../../../images/interests.png";
+import { fb, vk, ins, github } from "../links";
+
 import "./Home.css";
+
 
 const Home = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [showContact, setShowContact] = useState(false);
 
   const renderedMenu = () => {
     return (
@@ -48,7 +52,11 @@ const Home = () => {
 
         <div className="menu-options">
           <div className="options option interests">
-            <img src={interests} alt="interests" className="interests-image"></img>
+            <img
+              src={interests}
+              alt="interests"
+              className="interests-image"
+            ></img>
             <div className="overlay interests-overlay">
               <Link to="/interests" className="text interests-text">
                 #Interests
@@ -92,9 +100,75 @@ const Home = () => {
     );
   };
 
+
+  const renderedContactWindow = () => {
+    return (
+      <div className="contact-container">
+        <div className="contact-header">
+          <button
+            className="btn-contact contact-close"
+            onClick={() => setShowContact(false)}
+          >
+            X
+          </button>
+        </div>
+
+        <div className="contact-list">
+          <img
+            src={avatar}
+            alt="avatar"
+            className="contact-avatar"
+            onClick={()=>window.open(avatar)}
+          ></img>
+
+          <ul>
+            <li>
+              <i class="fab fa-google-plus"></i>chienbui211@gmail.com
+            </li>
+            <li>
+              <i class="fas fa-phone-square-alt"></i>+(79) 313 557 094
+            </li>
+            <li>
+              <i class="fab fa-facebook-square"></i>
+              <a href={fb} target="_blank">
+                ChienBui
+              </a>
+            </li>
+
+            <li>
+              <i class="fa fa-instagram"></i>
+              <a href={ins} target="_blank">
+                buichien.211
+              </a>
+            </li>
+            <li>
+              <i class="fa fa-github"></i>
+              <a href={github} target="_blank">
+                BuiHongChien
+              </a>
+            </li>
+            <li>
+              <i class="fab fa-vk"></i>
+              <a href={vk} target="_blank">
+                BuiChien
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div className="home">
       {showMenu ? renderedMenu() : renderedHome()}
+      <button
+        className="btn-contact contact-open"
+        onClick={() => setShowContact(true)}
+      >
+        Contact Me
+      </button>
+      {showContact ? renderedContactWindow() : null}
     </div>
   );
 };

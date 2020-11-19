@@ -1,6 +1,8 @@
 /node_modules
 /src/images
 /src/components/pages/links.js
+/.vercel
+/.vscode
 /.pnp
 .pnp.js
 /.vercel

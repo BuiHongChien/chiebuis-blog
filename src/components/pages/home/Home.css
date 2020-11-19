@@ -13,17 +13,85 @@
   flex-direction: column;
 }
 
+.btn-contact {
+  position: absolute;
+  font-family: "Capriola";
+  outline: none;
+  border: 0.16em solid rgba(255, 255, 255, 0);
+  background-color: #b9857e;
+}
+
+.contact-open {
+  line-height: 4rem;
+  width: 10rem;
+  font-size: 1.4rem;
+  margin-bottom: 4rem;
+  margin-right: 3rem;
+  border-radius: 10px;
+  bottom: 0;
+  right: 0;
+}
+
+.btn-contact:hover {
+  background-color: #b9857ea9;
+}
+
+.contact-container {
+  z-index: 2;
+  position: absolute;
+  margin-bottom: 4rem;
+  margin-right: 3rem;
+  width: 400px;
+  height: 300px;
+  background-color: #d8d1d0;
+  border-radius: 10px;
+  bottom: 0;
+  right: 0;
+}
+
+.contact-close {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  top: 0;
+  right: 0;
+}
+
+.contact-header {
+  position: absolute;
+  border-radius: 10px 10px 0 0;
+  height: 5rem;
+  width: 100%;
+  background-color: #b9857e;
+}
+
+.contact-list{position: relative;
+  margin-top: 70px;
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.contact-avatar{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
 .menu-options {
   display: flex;
 }
 
 .options {
   position: relative;
-  margin: 30px;
-  width: 150px;
-  height: 150px;
+  margin: 3rem;
+  width: 15rem;
+  height: 15rem;
   border: 5px solid;
-  
 }
 
 .avatar {
@@ -52,13 +120,13 @@
 }
 
 .avatar-home {
-  width: 200px;
-  height: 200px;
+  width: 20rem;
+  height: 20rem;
 }
 
 .avatar-menu {
-  width: 120px;
-  height: 120px;
+  width: 12rem;
+  height: 12rem;
 }
 
 .image {
@@ -140,13 +208,11 @@
   font-family: "Capriola";
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .menu-text {
-  font-size: 36px;
+  font-size: 3.6rem;
   color: #3e6774;
 }
 
@@ -155,7 +221,7 @@
 }
 
 .home-text {
-  font-size: 28px;
+  font-size: 2.8rem;
   color: #3e6774;
 }
 
@@ -182,7 +248,7 @@
 }
 
 .interests-text {
-  font-size: 28px;
+  font-size: 2.8rem;
   color: #3e6774;
 }
 
